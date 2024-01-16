@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="Adw" version="1.0"/>
+  <template class="UpdatesUtilityWindow" parent="AdwApplicationWindow">
+    <property name="default-width">600</property>
+    <property name="default-height">600</property>
+    <property name="title" translatable="true">System Updates Settings</property>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkHeaderBar" id="header_bar">
+            <child type="start">
+              <object class="GtkButton" id="btn_cancel">
+                <property name="label" translatable="true">Cancel</property>
+                <property name="visible">False</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwToastOverlay" id="toasts">
+            <child>
+              <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <property name="valign">center</property>
+                <property name="vexpand">true</property>
+                <child>
+                  <object class="AdwPreferencesPage">
+                    <child>
+                      <object class="AdwPreferencesGroup">
+                        <child>
+                          <object class="AdwComboRow" id="row_frequency">
+                            <property name="title" translatable="true">Update frequency</property>
+                            <property name="subtitle" translatable="true">How often to check for updates</property>
+                            <property name="model">
+                              <object class="GtkStringList" id="str_frequencies"></object>
+                            </property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwActionRow">
+                            <property name="title" translatable="true">Smart updates</property>
+                            <property name="subtitle" translatable="true">Only check for updates when the computer is idle</property>
+                            <property name="activatable-widget">switch_smart_updates</property>
+                            <child type="suffix">
+                              <object class="GtkSwitch" id="switch_smart_updates">
+                                <property name="valign">center</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

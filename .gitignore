@@ -1,0 +1,8 @@
+/meson_build/
+/mesonbuild/
+/debian/.debhelper
+/debian/vanilla-updates-utility
+/debian/vanilla-updates-utility.debhelper.log
+/debian/vanilla-updates-utility.substvars
+/obj-x86_64-linux-gnu/
+/vso

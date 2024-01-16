@@ -1,0 +1,13 @@
+data/org.vanillaos.UpdatesUtility.desktop.in
+data/org.vanillaos.UpdatesUtility.appdata.xml.in
+data/org.vanillaos.UpdatesUtility.gschema.xml
+
+vanilla_updates_utility/gtk/help-overlay.ui
+vanilla_updates_utility/gtk/window-main.ui
+
+vanilla_updates_utility/utils/run_async.py
+vanilla_updates_utility/utils/wrapper.py
+
+vanilla_updates_utility/windows/main_window.py
+
+vanilla_updates_utility/main.py
