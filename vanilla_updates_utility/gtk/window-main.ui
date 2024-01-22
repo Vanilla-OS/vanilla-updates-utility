@@ -5,7 +5,7 @@
   <template class="UpdatesUtilityWindow" parent="AdwApplicationWindow">
     <property name="default-width">600</property>
     <property name="default-height">600</property>
-    <property name="title" translatable="true">System Updates Settings</property>
+    <property name="title" translatable="yes">System Updates Settings</property>
     <child>
       <object class="GtkBox">
         <property name="orientation">vertical</property>
@@ -13,7 +13,7 @@
           <object class="GtkHeaderBar" id="header_bar">
             <child type="start">
               <object class="GtkButton" id="btn_cancel">
-                <property name="label" translatable="true">Cancel</property>
+                <property name="label" translatable="yes">Cancel</property>
                 <property name="visible">False</property>
               </object>
             </child>
@@ -32,8 +32,8 @@
                       <object class="AdwPreferencesGroup">
                         <child>
                           <object class="AdwComboRow" id="row_frequency">
-                            <property name="title" translatable="true">Update frequency</property>
-                            <property name="subtitle" translatable="true">How often to check for updates</property>
+                            <property name="title" translatable="yes">Update frequency</property>
+                            <property name="subtitle" translatable="yes">How often to check for updates</property>
                             <property name="model">
                               <object class="GtkStringList" id="str_frequencies"></object>
                             </property>
@@ -41,8 +41,8 @@
                         </child>
                         <child>
                           <object class="AdwActionRow">
-                            <property name="title" translatable="true">Smart updates</property>
-                            <property name="subtitle" translatable="true">Only check for updates when the computer is idle</property>
+                            <property name="title" translatable="yes">Smart updates</property>
+                            <property name="subtitle" translatable="yes">Only check for updates when the computer is idle</property>
                             <property name="activatable-widget">switch_smart_updates</property>
                             <child type="suffix">
                               <object class="GtkSwitch" id="switch_smart_updates">

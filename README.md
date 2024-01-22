@@ -1,7 +1,8 @@
 <div align="center">
     <img src="data/icons/hicolor/scalable/apps/org.vanillaos.UpdatesUtility.svg" height="64">
     <h1>Vanilla Updates Utility</h1>
-    
+
+
 [![Translation Status][weblate-image]][weblate-url]
 
 [weblate-url]: https://hosted.weblate.org/engage/vanilla-os/
@@ -13,7 +14,9 @@
 </div>
 
 ## Build
+
 ### Dependencies
+
 - build-essential
 - meson
 - libadwaita-1-dev
@@ -22,17 +25,20 @@
 - vso
 
 ### Build
+
 ```bash
-meson build
+meson setup build
 ninja -C build
 ```
 
 ### Install
+
 ```bash
 sudo ninja -C build install
 ```
 
 ## Run
+
 ```bash
 vanilla-updates-utility
 
