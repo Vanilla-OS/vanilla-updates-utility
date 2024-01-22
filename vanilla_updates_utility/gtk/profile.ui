@@ -14,7 +14,7 @@
         </child>
         <child>
           <object class="GtkButton" id="btn_restart">
-            <property name="label" translatable="true">Restart Now</property>
+            <property name="label" translatable="yes">Restart Now</property>
             <property name="visible">false</property>
           </object>
         </child>
