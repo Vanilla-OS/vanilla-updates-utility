@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the updates_utility package.
+# "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: updates_utility\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-22 22:29+0530\n"
+"PO-Revision-Date: 2024-01-23 11:23+0000\n"
+"Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-updates-utility/ta/>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: data/org.vanillaos.UpdatesUtility.desktop.in:3
+msgid "Updates Utility"
+msgstr "புதுப்பிப்புகள் பயன்பாடு"
+
+#: data/org.vanillaos.UpdatesUtility.appdata.xml.in:7
+msgid "No description"
+msgstr "விளக்கம் இல்லை"
+
+#: vanilla_updates_utility/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "பொது"
+
+#: vanilla_updates_utility/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "குறுக்குவழிகளைக் காட்டு"
+
+#: vanilla_updates_utility/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "வெளியேறு"
+
+#: vanilla_updates_utility/gtk/profile.ui:17
+msgid "Restart Now"
+msgstr "இப்போது மீண்டும் தொடங்கவும்"
+
+#: vanilla_updates_utility/gtk/window-main.ui:8
+msgid "System Updates Settings"
+msgstr "கணினி புதுப்பிப்புகள் அமைப்புகள்"
+
+#: vanilla_updates_utility/gtk/window-main.ui:16
+msgid "Cancel"
+msgstr "ரத்துசெய்"
+
+#: vanilla_updates_utility/gtk/window-main.ui:35
+msgid "Update frequency"
+msgstr "புதுப்பிப்பு அதிர்வெண்"
+
+#: vanilla_updates_utility/gtk/window-main.ui:36
+msgid "How often to check for updates"
+msgstr "புதுப்பிப்புகளை எவ்வளவு அடிக்கடி சரிபார்க்க வேண்டும்"
+
+#: vanilla_updates_utility/gtk/window-main.ui:44
+msgid "Smart updates"
+msgstr "புத்திசாலித்தனமான புதுப்பிப்புகள்"
+
+#: vanilla_updates_utility/gtk/window-main.ui:45
+msgid "Only check for updates when the computer is idle"
+msgstr ""
+"கணினி செயலற்ற நிலையில் இருக்கும்போது மட்டுமே புதுப்பிப்புகளைச் சரிபார்க்கவும்"
+
+#: vanilla_updates_utility/windows/main_window.py:41
+msgid "Daily"
+msgstr "தினசரி"
+
+#: vanilla_updates_utility/windows/main_window.py:42
+msgid "Weekly"
+msgstr "வாரந்தோறும்"
+
+#: vanilla_updates_utility/windows/main_window.py:43
+msgid "Monthly"
+msgstr "மாதாந்திர"
+
+#: vanilla_updates_utility/windows/main_window.py:80
+msgid "Smart updates enabled"
+msgstr "புத்திசாலித்தனமான புதுப்பிப்புகள் இயக்கப்பட்டன"
+
+#: vanilla_updates_utility/windows/main_window.py:80
+msgid "Smart updates disabled"
+msgstr "புத்திசாலித்தனமான புதுப்பிப்புகள் முடக்கப்பட்டுள்ளன"
+
+#: vanilla_updates_utility/windows/main_window.py:93
+#, python-brace-format
+msgid "Frequency set to {translated_value}"
+msgstr "அதிர்வெண் {translated_value} ஆக அமைக்கப்பட்டது"
