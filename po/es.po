@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the updates_utility package.
+# David González <iwisp360@hotmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: updates_utility\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-22 22:29+0530\n"
+"PO-Revision-Date: 2024-01-29 00:02+0000\n"
+"Last-Translator: David González <iwisp360@hotmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-updates-utility/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: data/org.vanillaos.UpdatesUtility.desktop.in:3
+msgid "Updates Utility"
+msgstr "Herramienta de Actualizaciones"
+
+#: data/org.vanillaos.UpdatesUtility.appdata.xml.in:7
+msgid "No description"
+msgstr "Sin descripción"
+
+#: vanilla_updates_utility/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "General"
+
+#: vanilla_updates_utility/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Mostrar Atajos"
+
+#: vanilla_updates_utility/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Quitar"
+
+#: vanilla_updates_utility/gtk/profile.ui:17
+msgid "Restart Now"
+msgstr "Reiniciar Ahora"
+
+#: vanilla_updates_utility/gtk/window-main.ui:8
+msgid "System Updates Settings"
+msgstr "Configuración de Actualizaciones del Sistema"
+
+#: vanilla_updates_utility/gtk/window-main.ui:16
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: vanilla_updates_utility/gtk/window-main.ui:35
+msgid "Update frequency"
+msgstr "Frecuencia de Actualizaciones"
+
+#: vanilla_updates_utility/gtk/window-main.ui:36
+msgid "How often to check for updates"
+msgstr "Frecuencia en que se deberían chequear actualizaciones"
+
+#: vanilla_updates_utility/gtk/window-main.ui:44
+msgid "Smart updates"
+msgstr "Actualizaciones dinámicas"
+
+#: vanilla_updates_utility/gtk/window-main.ui:45
+msgid "Only check for updates when the computer is idle"
+msgstr "Chequear actualizaciones solo cuando el PC está inactivo"
+
+#: vanilla_updates_utility/windows/main_window.py:41
+msgid "Daily"
+msgstr "Diariamente"
+
+#: vanilla_updates_utility/windows/main_window.py:42
+msgid "Weekly"
+msgstr "Semanalmente"
+
+#: vanilla_updates_utility/windows/main_window.py:43
+msgid "Monthly"
+msgstr "Mensualmente"
+
+#: vanilla_updates_utility/windows/main_window.py:80
+msgid "Smart updates enabled"
+msgstr "Actualizaciones dinámicas activadas"
+
+#: vanilla_updates_utility/windows/main_window.py:80
+msgid "Smart updates disabled"
+msgstr "Actualizaciones dinámicas desactivadas"
+
+#: vanilla_updates_utility/windows/main_window.py:93
+#, python-brace-format
+msgid "Frequency set to {translated_value}"
+msgstr "Frecuencia configurada en {translated_value}"
