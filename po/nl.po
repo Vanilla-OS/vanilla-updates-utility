@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-22 22:29+0530\n"
-"PO-Revision-Date: 2024-01-31 16:42+0000\n"
+"PO-Revision-Date: 2024-05-19 07:56+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/nl/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: data/org.vanillaos.UpdatesUtility.desktop.in:3
 msgid "Updates Utility"
@@ -24,7 +24,7 @@ msgstr "Updates"
 
 #: data/org.vanillaos.UpdatesUtility.appdata.xml.in:7
 msgid "No description"
-msgstr "Geen omschrijving"
+msgstr "Geen omschrĳving"
 
 #: vanilla_updates_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -34,7 +34,7 @@ msgstr "Algemeen"
 #: vanilla_updates_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Snel­toetsen tonen"
+msgstr "Sneltoetsen tonen"
 
 #: vanilla_updates_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
