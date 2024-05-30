@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-22 22:29+0530\n"
-"PO-Revision-Date: 2024-05-19 07:56+0000\n"
+"PO-Revision-Date: 2024-05-30 05:44+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/nl/>\n"
@@ -71,15 +71,15 @@ msgstr "Enkel op updates controleren wanneer het apparaat inactief is"
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Daily"
-msgstr "Dagelijks"
+msgstr "Dagelĳks"
 
 #: vanilla_updates_utility/windows/main_window.py:42
 msgid "Weekly"
-msgstr "Wekelijks"
+msgstr "Wekelĳks"
 
 #: vanilla_updates_utility/windows/main_window.py:43
 msgid "Monthly"
-msgstr "Maandelijks"
+msgstr "Maandelĳks"
 
 #: vanilla_updates_utility/windows/main_window.py:80
 msgid "Smart updates enabled"
