@@ -45,13 +45,13 @@ class VsoSettingsWrapper:
 
         final_command: List[Text] = []
         if use_host_spawn:
-            final_command.append(shutil.which("host-spawn"))
+            host_spawn_path = shutil.which("host-spawn")
+            assert host_spawn_path
+            final_command.append(host_spawn_path)
         if use_pkexec:
             final_command.append("pkexec")
         final_command.append(vso_bin)
         final_command.append(command)
-
-        print(final_command)
 
         return " ".join(final_command)
 
@@ -71,12 +71,13 @@ class VsoSettingsWrapper:
                     key, value = line.split(" : ")
                     config[key] = value
         except subprocess.CalledProcessError as e:
-            logger.error(e.output)
+            logger.error(e)
+            exit(1)
 
         return config
 
     @staticmethod
-    def set_config_value(key: Text, value: any) -> None:
+    def set_config_value(key: Text, value: str) -> None:
         try:
             subprocess.check_output(
                 VsoSettingsWrapper.get_vso_cmd(f"config set -k {key} -v {value}", True),
