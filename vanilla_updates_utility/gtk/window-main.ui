@@ -4,13 +4,16 @@
   <requires lib="Adw" version="1.0"/>
   <template class="UpdatesUtilityWindow" parent="AdwApplicationWindow">
     <property name="default-width">600</property>
-    <property name="default-height">600</property>
+    <property name="default-height">250</property>
     <property name="title" translatable="yes">System Updates Settings</property>
     <child>
       <object class="GtkBox">
         <property name="orientation">vertical</property>
         <child>
           <object class="GtkHeaderBar" id="header_bar">
+            <style>
+              <class name="flat"/>
+            </style>
             <child type="start">
               <object class="GtkButton" id="btn_cancel">
                 <property name="label" translatable="yes">Cancel</property>
