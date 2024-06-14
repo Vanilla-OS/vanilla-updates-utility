@@ -18,7 +18,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 import gettext
-from gi.repository import Gtk, Adw
+from gi.repository import Gtk, Adw, Gio
 from typing import List
 
 from vanilla_updates_utility.utils.wrapper import VsoSettingsWrapper
@@ -38,6 +38,7 @@ class UpdatesUtilityWindow(Adw.ApplicationWindow):
 
     __vso_settings: VsoSettingsWrapper = None
     __frequency_values: List = [
+        {"never": _("Never")},
         {"daily": _("Daily")},
         {"weekly": _("Weekly")},
         {"monthly": _("Monthly")},
@@ -62,14 +63,18 @@ class UpdatesUtilityWindow(Adw.ApplicationWindow):
             self.switch_smart_updates.set_active(True)
 
         match config["updates.schedule"]:
-            case "daily":
+            case "never":
                 self.row_frequency.set_selected(0)
-            case "weekly":
+            case "daily":
                 self.row_frequency.set_selected(1)
-            case "monthly":
+            case "weekly":
                 self.row_frequency.set_selected(2)
+            case "monthly":
+                self.row_frequency.set_selected(3)
             case _:
                 self.row_frequency.set_selected(0)
+
+        self.__previous_schedule = self.row_frequency.get_selected()
 
         self.btn_cancel.connect("clicked", self.__on_cancel_clicked)
         self.switch_smart_updates.connect("state-set", self.__on_smart_updates_toggled)
@@ -81,19 +86,56 @@ class UpdatesUtilityWindow(Adw.ApplicationWindow):
 
     def __on_frequency_changed(self, widget, *args):
         index = widget.get_selected()
-        key: str = None
-        translated_value: str = None
+        if index == self.__previous_schedule:
+            return
+
+        key: str | None = None
+        translated_value: str | None = None
 
         for k, v in self.__frequency_values[index].items():
             key = k
             translated_value = v
 
-        self.__vso_settings.set_config_value("updates.schedule", key)
-        self.toast(
-            _("Frequency set to {translated_value}").format(
-                translated_value=translated_value
+        assert key
+        assert translated_value
+
+        if key == "never":
+            self.__auto_update_disable_warning(key, translated_value)
+        else:
+            self.__vso_settings.set_config_value("updates.schedule", key)
+            self.toast(
+                _("Frequency set to {translated_value}").format(
+                    translated_value=translated_value
+                )
             )
+            self.__previous_schedule = self.row_frequency.get_selected()
+
+    def __auto_update_disable_warning(self, key_set: str, value_set: str):
+        def commit_schedule(dialog: Adw.AlertDialog, result: Gio.AsyncResult):
+            response = dialog.choose_finish(result)
+            if response == "disable":
+                self.__vso_settings.set_config_value("updates.schedule", key_set)
+                self.toast(
+                    _("Frequency set to {translated_value}").format(
+                        translated_value=value_set
+                    )
+                )
+                self.__previous_schedule = self.row_frequency.get_selected()
+            else:
+                self.row_frequency.set_selected(self.__previous_schedule)
+
+        dialog = Adw.AlertDialog.new(
+            _("Disable Automatic Updates?"),
+            _(
+                "Disabling automatic updates is not recommended. If you choose to proceed, you might miss important security updates and bug fixes."
+            ),
         )
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("disable", _("Disable"))
+        dialog.set_default_response("cancel")
+        dialog.set_close_response("cancel")
+        dialog.set_response_appearance("disable", Adw.ResponseAppearance.DESTRUCTIVE)
+        dialog.choose(self, callback=commit_schedule)
 
     def __set_embedded(self):
         self.btn_cancel.show()
