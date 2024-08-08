@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-22 22:29+0530\n"
+"POT-Creation-Date: 2024-08-08 07:43+0000\n"
 "PO-Revision-Date: 2024-01-25 01:01+0000\n"
 "Last-Translator: bittin1ddc447d824349b2 <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/vanilla-os/"
@@ -49,47 +49,67 @@ msgstr "Starta om nu"
 msgid "System Updates Settings"
 msgstr "Systemuppdateringsinställningar"
 
-#: vanilla_updates_utility/gtk/window-main.ui:16
+#: vanilla_updates_utility/gtk/window-main.ui:19
+#: vanilla_updates_utility/windows/main_window.py:133
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: vanilla_updates_utility/gtk/window-main.ui:35
+#: vanilla_updates_utility/gtk/window-main.ui:38
 msgid "Update frequency"
 msgstr "Uppdateringsfrekvens"
 
-#: vanilla_updates_utility/gtk/window-main.ui:36
+#: vanilla_updates_utility/gtk/window-main.ui:39
 msgid "How often to check for updates"
 msgstr "Hur ofta att söka efter uppdateringar"
 
-#: vanilla_updates_utility/gtk/window-main.ui:44
+#: vanilla_updates_utility/gtk/window-main.ui:47
 msgid "Smart updates"
 msgstr "Smarta uppdateringar"
 
-#: vanilla_updates_utility/gtk/window-main.ui:45
+#: vanilla_updates_utility/gtk/window-main.ui:48
 msgid "Only check for updates when the computer is idle"
 msgstr "Kontrollera endast efter uppdateringar när datorn är inaktiv"
 
 #: vanilla_updates_utility/windows/main_window.py:41
+msgid "Never"
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
 msgstr "Dagligen"
 
-#: vanilla_updates_utility/windows/main_window.py:42
+#: vanilla_updates_utility/windows/main_window.py:43
 msgid "Weekly"
 msgstr "Varje vecka"
 
-#: vanilla_updates_utility/windows/main_window.py:43
+#: vanilla_updates_utility/windows/main_window.py:44
 msgid "Monthly"
 msgstr "Varje månad"
 
-#: vanilla_updates_utility/windows/main_window.py:80
+#: vanilla_updates_utility/windows/main_window.py:85
 msgid "Smart updates enabled"
 msgstr "Smarta uppdateringar aktiverade"
 
-#: vanilla_updates_utility/windows/main_window.py:80
+#: vanilla_updates_utility/windows/main_window.py:85
 msgid "Smart updates disabled"
 msgstr "Smarta uppdateringar inaktiverade"
 
-#: vanilla_updates_utility/windows/main_window.py:93
+#: vanilla_updates_utility/windows/main_window.py:107
+#: vanilla_updates_utility/windows/main_window.py:119
 #, python-brace-format
 msgid "Frequency set to {translated_value}"
 msgstr "Frekvens satt till {translated_value}"
+
+#: vanilla_updates_utility/windows/main_window.py:128
+msgid "Disable Automatic Updates?"
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:130
+msgid ""
+"Disabling automatic updates is not recommended. If you choose to proceed, "
+"you might miss important security updates and bug fixes."
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:134
+msgid "Disable"
+msgstr ""

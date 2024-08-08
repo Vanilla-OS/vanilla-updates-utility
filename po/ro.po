@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-22 22:29+0530\n"
+"POT-Creation-Date: 2024-08-08 07:43+0000\n"
 "PO-Revision-Date: 2024-07-30 02:09+0000\n"
 "Last-Translator: supernova <76390419+driedpampas@users.noreply.github.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -51,47 +51,67 @@ msgstr "Reporniți acum"
 msgid "System Updates Settings"
 msgstr "Setări Actualizări Sistem"
 
-#: vanilla_updates_utility/gtk/window-main.ui:16
+#: vanilla_updates_utility/gtk/window-main.ui:19
+#: vanilla_updates_utility/windows/main_window.py:133
 msgid "Cancel"
 msgstr "Anulează"
 
-#: vanilla_updates_utility/gtk/window-main.ui:35
+#: vanilla_updates_utility/gtk/window-main.ui:38
 msgid "Update frequency"
 msgstr "Frecvența actualizărilor"
 
-#: vanilla_updates_utility/gtk/window-main.ui:36
+#: vanilla_updates_utility/gtk/window-main.ui:39
 msgid "How often to check for updates"
 msgstr "Cât de des să se verifice dacă există actualizări"
 
-#: vanilla_updates_utility/gtk/window-main.ui:44
+#: vanilla_updates_utility/gtk/window-main.ui:47
 msgid "Smart updates"
 msgstr "Actualizări inteligente"
 
-#: vanilla_updates_utility/gtk/window-main.ui:45
+#: vanilla_updates_utility/gtk/window-main.ui:48
 msgid "Only check for updates when the computer is idle"
 msgstr "Verificați actualizările numai atunci când computerul este inactiv"
 
 #: vanilla_updates_utility/windows/main_window.py:41
+msgid "Never"
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
 msgstr "Zilnic"
 
-#: vanilla_updates_utility/windows/main_window.py:42
+#: vanilla_updates_utility/windows/main_window.py:43
 msgid "Weekly"
 msgstr "Săptămânal"
 
-#: vanilla_updates_utility/windows/main_window.py:43
+#: vanilla_updates_utility/windows/main_window.py:44
 msgid "Monthly"
 msgstr "Lunar"
 
-#: vanilla_updates_utility/windows/main_window.py:80
+#: vanilla_updates_utility/windows/main_window.py:85
 msgid "Smart updates enabled"
 msgstr "Actualizări inteligente activate"
 
-#: vanilla_updates_utility/windows/main_window.py:80
+#: vanilla_updates_utility/windows/main_window.py:85
 msgid "Smart updates disabled"
 msgstr "Actualizări inteligente dezactivate"
 
-#: vanilla_updates_utility/windows/main_window.py:93
+#: vanilla_updates_utility/windows/main_window.py:107
+#: vanilla_updates_utility/windows/main_window.py:119
 #, python-brace-format
 msgid "Frequency set to {translated_value}"
 msgstr "Frecvența setată la {translated_value}"
+
+#: vanilla_updates_utility/windows/main_window.py:128
+msgid "Disable Automatic Updates?"
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:130
+msgid ""
+"Disabling automatic updates is not recommended. If you choose to proceed, "
+"you might miss important security updates and bug fixes."
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:134
+msgid "Disable"
+msgstr ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-22 22:29+0530\n"
+"POT-Creation-Date: 2024-08-08 07:43+0000\n"
 "PO-Revision-Date: 2024-01-26 12:01+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -49,47 +49,67 @@ msgstr "立即重启"
 msgid "System Updates Settings"
 msgstr "系统更新设置"
 
-#: vanilla_updates_utility/gtk/window-main.ui:16
+#: vanilla_updates_utility/gtk/window-main.ui:19
+#: vanilla_updates_utility/windows/main_window.py:133
 msgid "Cancel"
 msgstr "取消"
 
-#: vanilla_updates_utility/gtk/window-main.ui:35
+#: vanilla_updates_utility/gtk/window-main.ui:38
 msgid "Update frequency"
 msgstr "更新频率"
 
-#: vanilla_updates_utility/gtk/window-main.ui:36
+#: vanilla_updates_utility/gtk/window-main.ui:39
 msgid "How often to check for updates"
 msgstr "检查更新的频繁程度"
 
-#: vanilla_updates_utility/gtk/window-main.ui:44
+#: vanilla_updates_utility/gtk/window-main.ui:47
 msgid "Smart updates"
 msgstr "智能更新"
 
-#: vanilla_updates_utility/gtk/window-main.ui:45
+#: vanilla_updates_utility/gtk/window-main.ui:48
 msgid "Only check for updates when the computer is idle"
 msgstr "仅在计算机空闲时检查更新"
 
 #: vanilla_updates_utility/windows/main_window.py:41
+msgid "Never"
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
 msgstr "每天"
 
-#: vanilla_updates_utility/windows/main_window.py:42
+#: vanilla_updates_utility/windows/main_window.py:43
 msgid "Weekly"
 msgstr "每周"
 
-#: vanilla_updates_utility/windows/main_window.py:43
+#: vanilla_updates_utility/windows/main_window.py:44
 msgid "Monthly"
 msgstr "每个月"
 
-#: vanilla_updates_utility/windows/main_window.py:80
+#: vanilla_updates_utility/windows/main_window.py:85
 msgid "Smart updates enabled"
 msgstr "智能更新已启用"
 
-#: vanilla_updates_utility/windows/main_window.py:80
+#: vanilla_updates_utility/windows/main_window.py:85
 msgid "Smart updates disabled"
 msgstr "智能更新已禁用"
 
-#: vanilla_updates_utility/windows/main_window.py:93
+#: vanilla_updates_utility/windows/main_window.py:107
+#: vanilla_updates_utility/windows/main_window.py:119
 #, python-brace-format
 msgid "Frequency set to {translated_value}"
 msgstr "频率已设置为{translated_value}"
+
+#: vanilla_updates_utility/windows/main_window.py:128
+msgid "Disable Automatic Updates?"
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:130
+msgid ""
+"Disabling automatic updates is not recommended. If you choose to proceed, "
+"you might miss important security updates and bug fixes."
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:134
+msgid "Disable"
+msgstr ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-22 22:29+0530\n"
+"POT-Creation-Date: 2024-08-08 07:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -46,47 +46,67 @@ msgstr ""
 msgid "System Updates Settings"
 msgstr ""
 
-#: vanilla_updates_utility/gtk/window-main.ui:16
+#: vanilla_updates_utility/gtk/window-main.ui:19
+#: vanilla_updates_utility/windows/main_window.py:133
 msgid "Cancel"
 msgstr ""
 
-#: vanilla_updates_utility/gtk/window-main.ui:35
+#: vanilla_updates_utility/gtk/window-main.ui:38
 msgid "Update frequency"
 msgstr ""
 
-#: vanilla_updates_utility/gtk/window-main.ui:36
+#: vanilla_updates_utility/gtk/window-main.ui:39
 msgid "How often to check for updates"
 msgstr ""
 
-#: vanilla_updates_utility/gtk/window-main.ui:44
+#: vanilla_updates_utility/gtk/window-main.ui:47
 msgid "Smart updates"
 msgstr ""
 
-#: vanilla_updates_utility/gtk/window-main.ui:45
+#: vanilla_updates_utility/gtk/window-main.ui:48
 msgid "Only check for updates when the computer is idle"
 msgstr ""
 
 #: vanilla_updates_utility/windows/main_window.py:41
-msgid "Daily"
+msgid "Never"
 msgstr ""
 
 #: vanilla_updates_utility/windows/main_window.py:42
-msgid "Weekly"
+msgid "Daily"
 msgstr ""
 
 #: vanilla_updates_utility/windows/main_window.py:43
+msgid "Weekly"
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:44
 msgid "Monthly"
 msgstr ""
 
-#: vanilla_updates_utility/windows/main_window.py:80
+#: vanilla_updates_utility/windows/main_window.py:85
 msgid "Smart updates enabled"
 msgstr ""
 
-#: vanilla_updates_utility/windows/main_window.py:80
+#: vanilla_updates_utility/windows/main_window.py:85
 msgid "Smart updates disabled"
 msgstr ""
 
-#: vanilla_updates_utility/windows/main_window.py:93
+#: vanilla_updates_utility/windows/main_window.py:107
+#: vanilla_updates_utility/windows/main_window.py:119
 #, python-brace-format
 msgid "Frequency set to {translated_value}"
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:128
+msgid "Disable Automatic Updates?"
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:130
+msgid ""
+"Disabling automatic updates is not recommended. If you choose to proceed, "
+"you might miss important security updates and bug fixes."
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:134
+msgid "Disable"
 msgstr ""
