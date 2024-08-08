@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-22 22:29+0530\n"
+"POT-Creation-Date: 2024-08-08 07:43+0000\n"
 "PO-Revision-Date: 2024-06-02 21:55+0000\n"
-"Last-Translator: Experiencing A Significant Gravitas Shortfall <bedeb1@pm.me>"
-"\n"
+"Last-Translator: Experiencing A Significant Gravitas Shortfall <bedeb1@pm."
+"me>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/de/>\n"
 "Language: de\n"
@@ -51,47 +51,67 @@ msgstr "Jetzt neustarten"
 msgid "System Updates Settings"
 msgstr "Einstellungen für Systemaktualisierungen"
 
-#: vanilla_updates_utility/gtk/window-main.ui:16
+#: vanilla_updates_utility/gtk/window-main.ui:19
+#: vanilla_updates_utility/windows/main_window.py:133
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: vanilla_updates_utility/gtk/window-main.ui:35
+#: vanilla_updates_utility/gtk/window-main.ui:38
 msgid "Update frequency"
 msgstr "Aktualisierungsfrequenz"
 
-#: vanilla_updates_utility/gtk/window-main.ui:36
+#: vanilla_updates_utility/gtk/window-main.ui:39
 msgid "How often to check for updates"
 msgstr "Wie oft nach Aktualisierungen gesucht werden soll"
 
-#: vanilla_updates_utility/gtk/window-main.ui:44
+#: vanilla_updates_utility/gtk/window-main.ui:47
 msgid "Smart updates"
 msgstr "Intelligente Aktualisierungen"
 
-#: vanilla_updates_utility/gtk/window-main.ui:45
+#: vanilla_updates_utility/gtk/window-main.ui:48
 msgid "Only check for updates when the computer is idle"
 msgstr "Nur nach Updates suchen, wenn der Rechner im Leerlauf ist"
 
 #: vanilla_updates_utility/windows/main_window.py:41
+msgid "Never"
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
 msgstr "Täglich"
 
-#: vanilla_updates_utility/windows/main_window.py:42
+#: vanilla_updates_utility/windows/main_window.py:43
 msgid "Weekly"
 msgstr "Wöchentlich"
 
-#: vanilla_updates_utility/windows/main_window.py:43
+#: vanilla_updates_utility/windows/main_window.py:44
 msgid "Monthly"
 msgstr "Monatlich"
 
-#: vanilla_updates_utility/windows/main_window.py:80
+#: vanilla_updates_utility/windows/main_window.py:85
 msgid "Smart updates enabled"
 msgstr "Intelligente Aktualisierungen aktiviert"
 
-#: vanilla_updates_utility/windows/main_window.py:80
+#: vanilla_updates_utility/windows/main_window.py:85
 msgid "Smart updates disabled"
 msgstr "Intelligente Aktualisierungen deaktiviert"
 
-#: vanilla_updates_utility/windows/main_window.py:93
+#: vanilla_updates_utility/windows/main_window.py:107
+#: vanilla_updates_utility/windows/main_window.py:119
 #, python-brace-format
 msgid "Frequency set to {translated_value}"
 msgstr "Häufigkeit auf {translated_value} gesetzt"
+
+#: vanilla_updates_utility/windows/main_window.py:128
+msgid "Disable Automatic Updates?"
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:130
+msgid ""
+"Disabling automatic updates is not recommended. If you choose to proceed, "
+"you might miss important security updates and bug fixes."
+msgstr ""
+
+#: vanilla_updates_utility/windows/main_window.py:134
+msgid "Disable"
+msgstr ""
