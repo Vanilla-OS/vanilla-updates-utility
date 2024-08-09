@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 07:43+0000\n"
-"PO-Revision-Date: 2024-01-25 01:01+0000\n"
+"PO-Revision-Date: 2024-08-09 09:09+0000\n"
 "Last-Translator: bittin1ddc447d824349b2 <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/sv/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: data/org.vanillaos.UpdatesUtility.desktop.in:3
 msgid "Updates Utility"
@@ -72,7 +72,7 @@ msgstr "Kontrollera endast efter uppdateringar när datorn är inaktiv"
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Never"
-msgstr ""
+msgstr "Aldrig"
 
 #: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
@@ -102,14 +102,17 @@ msgstr "Frekvens satt till {translated_value}"
 
 #: vanilla_updates_utility/windows/main_window.py:128
 msgid "Disable Automatic Updates?"
-msgstr ""
+msgstr "Inaktivera automatiska uppdateringar?"
 
 #: vanilla_updates_utility/windows/main_window.py:130
 msgid ""
 "Disabling automatic updates is not recommended. If you choose to proceed, "
 "you might miss important security updates and bug fixes."
 msgstr ""
+"Det rekommenderas inte att inaktivera automatiska uppdateringar. Om du "
+"väljer att fortsätta kan du missa viktiga säkerhetsuppdateringar och "
+"buggfixar."
 
 #: vanilla_updates_utility/windows/main_window.py:134
 msgid "Disable"
-msgstr ""
+msgstr "Inaktivera"
