@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 07:43+0000\n"
-"PO-Revision-Date: 2024-07-05 20:42+0000\n"
+"PO-Revision-Date: 2024-08-09 09:09+0000\n"
 "Last-Translator: Jose Delvani <jsdelvani@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-updates-utility/pt_BR/>\n"
@@ -74,7 +74,7 @@ msgstr ""
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Never"
-msgstr ""
+msgstr "Nunca"
 
 #: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
@@ -104,14 +104,17 @@ msgstr "Frequência definida como {translated_value}"
 
 #: vanilla_updates_utility/windows/main_window.py:128
 msgid "Disable Automatic Updates?"
-msgstr ""
+msgstr "Desativar atualizações automáticas?"
 
 #: vanilla_updates_utility/windows/main_window.py:130
 msgid ""
 "Disabling automatic updates is not recommended. If you choose to proceed, "
 "you might miss important security updates and bug fixes."
 msgstr ""
+"Desativar atualizações automáticas não é recomendado. Se você decidir "
+"continuar, poderá perder atualizações de segurança e correções de bugs "
+"importantes."
 
 #: vanilla_updates_utility/windows/main_window.py:134
 msgid "Disable"
-msgstr ""
+msgstr "Desativar"
