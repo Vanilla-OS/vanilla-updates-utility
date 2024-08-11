@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 07:43+0000\n"
-"PO-Revision-Date: 2024-07-30 02:09+0000\n"
+"PO-Revision-Date: 2024-08-10 16:09+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/eo/>\n"
@@ -72,7 +72,7 @@ msgstr "Nur kontroli ĝisdatigojn, kiam la komputilo estas neaktiva"
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Never"
-msgstr ""
+msgstr "Neniam"
 
 #: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
@@ -102,14 +102,16 @@ msgstr "Ofto agordita al {translated_value}"
 
 #: vanilla_updates_utility/windows/main_window.py:128
 msgid "Disable Automatic Updates?"
-msgstr ""
+msgstr "Ĉu malŝalti aŭtomatan ĝisdatigadon?"
 
 #: vanilla_updates_utility/windows/main_window.py:130
 msgid ""
 "Disabling automatic updates is not recommended. If you choose to proceed, "
 "you might miss important security updates and bug fixes."
 msgstr ""
+"Aŭtomata ĝisdatigado estas rekomendata. Se vi malŝaltas ĝin, vi eble "
+"forgesos pri gravaj sekurigaj ĝisdatigoj kaj riparoj de cimoj."
 
 #: vanilla_updates_utility/windows/main_window.py:134
 msgid "Disable"
-msgstr ""
+msgstr "Malŝalti"
