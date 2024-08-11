@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 07:43+0000\n"
-"PO-Revision-Date: 2024-01-26 12:01+0000\n"
+"PO-Revision-Date: 2024-08-10 16:09+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-updates-utility/zh_Hans/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: data/org.vanillaos.UpdatesUtility.desktop.in:3
 msgid "Updates Utility"
@@ -72,7 +72,7 @@ msgstr "仅在计算机空闲时检查更新"
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Never"
-msgstr ""
+msgstr "从不"
 
 #: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
@@ -102,14 +102,14 @@ msgstr "频率已设置为{translated_value}"
 
 #: vanilla_updates_utility/windows/main_window.py:128
 msgid "Disable Automatic Updates?"
-msgstr ""
+msgstr "禁用自动更新？"
 
 #: vanilla_updates_utility/windows/main_window.py:130
 msgid ""
 "Disabling automatic updates is not recommended. If you choose to proceed, "
 "you might miss important security updates and bug fixes."
-msgstr ""
+msgstr "不建议禁用自动更新。如果您选择继续，您有可能错过重要的安全更新与错误修复。"
 
 #: vanilla_updates_utility/windows/main_window.py:134
 msgid "Disable"
-msgstr ""
+msgstr "禁用"
