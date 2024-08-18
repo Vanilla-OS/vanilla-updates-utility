@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the updates_utility package.
+# Aindriú Mac Giolla Eoin <aindriu80@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: updates_utility\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-08 07:43+0000\n"
+"PO-Revision-Date: 2024-08-13 09:09+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
+"Language-Team: Irish <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-updates-utility/ga/>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :("
+"n>6 && n<11) ? 3 : 4;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+#: data/org.vanillaos.UpdatesUtility.desktop.in:3
+msgid "Updates Utility"
+msgstr "Uirlis Nuashonruithe"
+
+#: data/org.vanillaos.UpdatesUtility.appdata.xml.in:7
+msgid "No description"
+msgstr "Gan tuairisc"
+
+#: vanilla_updates_utility/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Ginearálta"
+
+#: vanilla_updates_utility/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Taispeáin Aicearraí"
+
+#: vanilla_updates_utility/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Scoir"
+
+#: vanilla_updates_utility/gtk/profile.ui:17
+msgid "Restart Now"
+msgstr "Atosaigh Anois"
+
+#: vanilla_updates_utility/gtk/window-main.ui:8
+msgid "System Updates Settings"
+msgstr "Socruithe Nuashonruithe Córais"
+
+#: vanilla_updates_utility/gtk/window-main.ui:19
+#: vanilla_updates_utility/windows/main_window.py:133
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: vanilla_updates_utility/gtk/window-main.ui:38
+msgid "Update frequency"
+msgstr "Nuashonraigh minicíocht"
+
+#: vanilla_updates_utility/gtk/window-main.ui:39
+msgid "How often to check for updates"
+msgstr "Cé chomh minic a sheiceáil le haghaidh nuashonruithe"
+
+#: vanilla_updates_utility/gtk/window-main.ui:47
+msgid "Smart updates"
+msgstr "Nuashonruithe cliste"
+
+#: vanilla_updates_utility/gtk/window-main.ui:48
+msgid "Only check for updates when the computer is idle"
+msgstr ""
+"Ná seiceáil le haghaidh nuashonruithe ach amháin nuair a bhíonn an ríomhaire "
+"díomhaoin"
+
+#: vanilla_updates_utility/windows/main_window.py:41
+msgid "Never"
+msgstr "Riamh"
+
+#: vanilla_updates_utility/windows/main_window.py:42
+msgid "Daily"
+msgstr "Go laethúil"
+
+#: vanilla_updates_utility/windows/main_window.py:43
+msgid "Weekly"
+msgstr "Go seachtainiuil"
+
+#: vanilla_updates_utility/windows/main_window.py:44
+msgid "Monthly"
+msgstr "Go míosúil"
+
+#: vanilla_updates_utility/windows/main_window.py:85
+msgid "Smart updates enabled"
+msgstr "Nuashonruithe cliste cumasaithe"
+
+#: vanilla_updates_utility/windows/main_window.py:85
+msgid "Smart updates disabled"
+msgstr "Díchumasaíodh nuashonruithe cliste"
+
+#: vanilla_updates_utility/windows/main_window.py:107
+#: vanilla_updates_utility/windows/main_window.py:119
+#, python-brace-format
+msgid "Frequency set to {translated_value}"
+msgstr "Minicíocht socraithe go {translated_value}"
+
+#: vanilla_updates_utility/windows/main_window.py:128
+msgid "Disable Automatic Updates?"
+msgstr "An bhfuil fonn ort Nuashonruithe Uathoibríocha a dhíchumasú?"
+
+#: vanilla_updates_utility/windows/main_window.py:130
+msgid ""
+"Disabling automatic updates is not recommended. If you choose to proceed, "
+"you might miss important security updates and bug fixes."
+msgstr ""
+"Ní mholtar nuashonruithe uathoibríocha a dhíchumasú. Má roghnaíonn tú "
+"leanúint ar aghaidh, seans go gcaillfidh tú nuashonruithe slándála "
+"tábhachtacha agus ceartúcháin fhabht."
+
+#: vanilla_updates_utility/windows/main_window.py:134
+msgid "Disable"
+msgstr "Díchumasaigh"
