@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the updates_utility package.
 # David <dawin@users.noreply.hosted.weblate.org>, 2024.
 # Experiencing A Significant Gravitas Shortfall <bedeb1@pm.me>, 2024.
+# Ettore Atalan <atalanttore@googlemail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 07:43+0000\n"
-"PO-Revision-Date: 2024-06-02 21:55+0000\n"
-"Last-Translator: Experiencing A Significant Gravitas Shortfall <bedeb1@pm."
-"me>\n"
+"PO-Revision-Date: 2024-08-18 20:59+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/de/>\n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.7\n"
 
 #: data/org.vanillaos.UpdatesUtility.desktop.in:3
 msgid "Updates Utility"
@@ -74,7 +74,7 @@ msgstr "Nur nach Updates suchen, wenn der Rechner im Leerlauf ist"
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Never"
-msgstr ""
+msgstr "Nie"
 
 #: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
@@ -104,14 +104,17 @@ msgstr "Häufigkeit auf {translated_value} gesetzt"
 
 #: vanilla_updates_utility/windows/main_window.py:128
 msgid "Disable Automatic Updates?"
-msgstr ""
+msgstr "Automatische Aktualisierungen deaktivieren?"
 
 #: vanilla_updates_utility/windows/main_window.py:130
 msgid ""
 "Disabling automatic updates is not recommended. If you choose to proceed, "
 "you might miss important security updates and bug fixes."
 msgstr ""
+"Es wird nicht empfohlen, automatische Aktualisierungen zu deaktivieren. Wenn "
+"Sie fortfahren, könnten Sie wichtige Sicherheitsaktualisierungen und "
+"Fehlerbehebungen verpassen."
 
 #: vanilla_updates_utility/windows/main_window.py:134
 msgid "Disable"
-msgstr ""
+msgstr "Deaktivieren"
