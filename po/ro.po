@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 07:43+0000\n"
-"PO-Revision-Date: 2024-07-30 02:09+0000\n"
+"PO-Revision-Date: 2024-08-27 09:51+0000\n"
 "Last-Translator: supernova <76390419+driedpampas@users.noreply.github.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/ro/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.7.1-dev\n"
 
 #: data/org.vanillaos.UpdatesUtility.desktop.in:3
 msgid "Updates Utility"
@@ -74,7 +74,7 @@ msgstr "Verificați actualizările numai atunci când computerul este inactiv"
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Never"
-msgstr ""
+msgstr "Niciodată"
 
 #: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
@@ -104,14 +104,17 @@ msgstr "Frecvența setată la {translated_value}"
 
 #: vanilla_updates_utility/windows/main_window.py:128
 msgid "Disable Automatic Updates?"
-msgstr ""
+msgstr "Dezactivați actualizările automate?"
 
 #: vanilla_updates_utility/windows/main_window.py:130
 msgid ""
 "Disabling automatic updates is not recommended. If you choose to proceed, "
 "you might miss important security updates and bug fixes."
 msgstr ""
+"Dezactivarea actualizărilor automate nu este recomandată. Dacă alegeți să "
+"continuați, este posibil să ratați actualizări importante de securitate și "
+"remedieri de erori."
 
 #: vanilla_updates_utility/windows/main_window.py:134
 msgid "Disable"
-msgstr ""
+msgstr "Dezactivați"
