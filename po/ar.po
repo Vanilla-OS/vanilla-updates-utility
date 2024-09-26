@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 07:43+0000\n"
-"PO-Revision-Date: 2024-07-27 16:09+0000\n"
+"PO-Revision-Date: 2024-09-22 17:33+0000\n"
 "Last-Translator: Muhammad Bahaa <muhammad.bahaa1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/ar/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: data/org.vanillaos.UpdatesUtility.desktop.in:3
 msgid "Updates Utility"
@@ -73,7 +73,7 @@ msgstr "التحقق من التحديثات فقط عندما يكون الكم
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Never"
-msgstr ""
+msgstr "أبداً"
 
 #: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
@@ -103,14 +103,16 @@ msgstr "تم ضبط المعدل على {translated_value}"
 
 #: vanilla_updates_utility/windows/main_window.py:128
 msgid "Disable Automatic Updates?"
-msgstr ""
+msgstr "تعطيل التحديثات التلقائية؟"
 
 #: vanilla_updates_utility/windows/main_window.py:130
 msgid ""
 "Disabling automatic updates is not recommended. If you choose to proceed, "
 "you might miss important security updates and bug fixes."
 msgstr ""
+"لا يُنصح بتعطيل التحديثات التلقائية. إذا اخترت الاستمرار، فقد تفوتك تحديثات "
+"الأمان المهمة وإصلاحات الأخطاء."
 
 #: vanilla_updates_utility/windows/main_window.py:134
 msgid "Disable"
-msgstr ""
+msgstr "تعطيل"
