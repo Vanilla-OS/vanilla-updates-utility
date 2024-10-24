@@ -2,7 +2,6 @@
     <img src="data/icons/hicolor/scalable/apps/org.vanillaos.UpdatesUtility.svg" height="64">
     <h1>Vanilla Updates Utility</h1>
 
-
 [![Translation Status][weblate-image]][weblate-url]
 
 [weblate-url]: https://hosted.weblate.org/engage/vanilla-os/
