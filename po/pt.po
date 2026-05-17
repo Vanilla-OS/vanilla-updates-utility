@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the updates_utility package.
 # ssantos <ssantos@web.de>, 2024.
-# Vinícius <vinicius.cgobbi2004@gmail.com>, 2024.
+# Vinícius <vinicius.cgobbi2004@gmail.com>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 07:43+0000\n"
-"PO-Revision-Date: 2024-07-13 17:21+0000\n"
+"PO-Revision-Date: 2025-07-04 10:01+0000\n"
 "Last-Translator: Vinícius <vinicius.cgobbi2004@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: data/org.vanillaos.UpdatesUtility.desktop.in:3
 msgid "Updates Utility"
@@ -74,7 +74,7 @@ msgstr ""
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Never"
-msgstr ""
+msgstr "Nunca"
 
 #: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
@@ -104,14 +104,16 @@ msgstr "Frequência definida como {translated_value}"
 
 #: vanilla_updates_utility/windows/main_window.py:128
 msgid "Disable Automatic Updates?"
-msgstr ""
+msgstr "Desativar Atualizações Automáticas?"
 
 #: vanilla_updates_utility/windows/main_window.py:130
 msgid ""
 "Disabling automatic updates is not recommended. If you choose to proceed, "
 "you might miss important security updates and bug fixes."
 msgstr ""
+"Desativar as atualizações automáticas não é recomendando. Se você continuar, "
+"pode perder atualizações de seguranças e correções de bugs importantes."
 
 #: vanilla_updates_utility/windows/main_window.py:134
 msgid "Disable"
-msgstr ""
+msgstr "Desativar"
