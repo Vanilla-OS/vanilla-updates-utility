@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the updates_utility package.
 # ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>, 2024, 2026.
+# Amadɣas <massiin@proton.me>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 07:43+0000\n"
-"PO-Revision-Date: 2026-02-10 13:09+0000\n"
-"Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-02-11 19:12+0000\n"
+"Last-Translator: Amadɣas <massiin@proton.me>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/kab/>\n"
 "Language: kab\n"
@@ -20,7 +21,7 @@ msgstr ""
 
 #: data/org.vanillaos.UpdatesUtility.desktop.in:3
 msgid "Updates Utility"
-msgstr ""
+msgstr "Afecku n yileqman"
 
 #: data/org.vanillaos.UpdatesUtility.appdata.xml.in:7
 msgid "No description"
@@ -47,7 +48,7 @@ msgstr "Ales asekker tura"
 
 #: vanilla_updates_utility/gtk/window-main.ui:8
 msgid "System Updates Settings"
-msgstr ""
+msgstr "Iɣewwaṛen n yileqman n unagraw"
 
 #: vanilla_updates_utility/gtk/window-main.ui:19
 #: vanilla_updates_utility/windows/main_window.py:133
@@ -56,19 +57,19 @@ msgstr "Semmet"
 
 #: vanilla_updates_utility/gtk/window-main.ui:38
 msgid "Update frequency"
-msgstr ""
+msgstr "Asnagar n lqem"
 
 #: vanilla_updates_utility/gtk/window-main.ui:39
 msgid "How often to check for updates"
-msgstr ""
+msgstr "Acḥal n tikkal i usefqed n yileqman"
 
 #: vanilla_updates_utility/gtk/window-main.ui:47
 msgid "Smart updates"
-msgstr ""
+msgstr "Ileqman imegza"
 
 #: vanilla_updates_utility/gtk/window-main.ui:48
 msgid "Only check for updates when the computer is idle"
-msgstr ""
+msgstr "Senqed kan ileqman mi ara yili uselkim ur yettwaseqdec ara"
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Never"
@@ -88,27 +89,30 @@ msgstr "Yal aggur"
 
 #: vanilla_updates_utility/windows/main_window.py:85
 msgid "Smart updates enabled"
-msgstr ""
+msgstr "Ileqman imegza remden"
 
 #: vanilla_updates_utility/windows/main_window.py:85
 msgid "Smart updates disabled"
-msgstr ""
+msgstr "Ileqman imegza nsan"
 
 #: vanilla_updates_utility/windows/main_window.py:107
 #: vanilla_updates_utility/windows/main_window.py:119
 #, python-brace-format
 msgid "Frequency set to {translated_value}"
-msgstr ""
+msgstr "Asnagar yettusbadu ɣer {translated_value}"
 
 #: vanilla_updates_utility/windows/main_window.py:128
 msgid "Disable Automatic Updates?"
-msgstr ""
+msgstr "Sens ileqman iwurmanen?"
 
 #: vanilla_updates_utility/windows/main_window.py:130
 msgid ""
 "Disabling automatic updates is not recommended. If you choose to proceed, "
 "you might miss important security updates and bug fixes."
 msgstr ""
+"Ur yettwassemter ara tukksa n urmad n ileqman iwurmanen. Ma tferneḍ ad "
+"tkemmleḍ, tzemreḍ ad tzegleḍ ileqman ixataren n tɣellist kked useɣti n "
+"ibugen."
 
 #: vanilla_updates_utility/windows/main_window.py:134
 msgid "Disable"
