@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the updates_utility package.
 # Niila Magga <niila@runbox.com>, 2024.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 07:43+0000\n"
-"PO-Revision-Date: 2024-07-05 20:42+0000\n"
-"Last-Translator: Niila Magga <niila@runbox.com>\n"
+"PO-Revision-Date: 2025-03-11 12:18+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/fi/>\n"
 "Language: fi\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: data/org.vanillaos.UpdatesUtility.desktop.in:3
 msgid "Updates Utility"
@@ -39,7 +40,7 @@ msgstr "Näytä pikanäppäimet"
 #: vanilla_updates_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Lopeta"
+msgstr "Poistu"
 
 #: vanilla_updates_utility/gtk/profile.ui:17
 msgid "Restart Now"
@@ -72,7 +73,7 @@ msgstr "Tarkista päivitykset vain, kun tietokone ei ole käytössä"
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Never"
-msgstr ""
+msgstr "Ei koskaan"
 
 #: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
@@ -102,14 +103,16 @@ msgstr "Päivitykset tarkistetaan {translated_value}"
 
 #: vanilla_updates_utility/windows/main_window.py:128
 msgid "Disable Automatic Updates?"
-msgstr ""
+msgstr "Poistetaanko automaattiset päivitykset käytöstä?"
 
 #: vanilla_updates_utility/windows/main_window.py:130
 msgid ""
 "Disabling automatic updates is not recommended. If you choose to proceed, "
 "you might miss important security updates and bug fixes."
 msgstr ""
+"Automaattisten päivitysten poistamista käytöstä ei suositella. Jos päätät "
+"jatkaa, saatat menettää tärkeitä tietoturvapäivityksiä ja viankorjauksia."
 
 #: vanilla_updates_utility/windows/main_window.py:134
 msgid "Disable"
-msgstr ""
+msgstr "Poista käytöstä"
