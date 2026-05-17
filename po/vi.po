@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the updates_utility package.
 # Notch Apple <Gapple1703@gmail.com>, 2024.
+# akarihito <thiendat5506@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 07:43+0000\n"
-"PO-Revision-Date: 2024-05-24 08:17+0000\n"
-"Last-Translator: Notch Apple <Gapple1703@gmail.com>\n"
+"PO-Revision-Date: 2025-05-14 18:53+0000\n"
+"Last-Translator: akarihito <thiendat5506@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/vi/>\n"
 "Language: vi\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: data/org.vanillaos.UpdatesUtility.desktop.in:3
 msgid "Updates Utility"
@@ -34,7 +35,7 @@ msgstr "Tổng quan"
 #: vanilla_updates_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Hiển thị phím tắt"
+msgstr "Hiện phím tắt"
 
 #: vanilla_updates_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -52,7 +53,7 @@ msgstr "Cài đặt cập nhật hệ thống"
 #: vanilla_updates_utility/gtk/window-main.ui:19
 #: vanilla_updates_utility/windows/main_window.py:133
 msgid "Cancel"
-msgstr "Huỷ"
+msgstr "Hủy bỏ"
 
 #: vanilla_updates_utility/gtk/window-main.ui:38
 msgid "Update frequency"
@@ -72,7 +73,7 @@ msgstr "Chỉ kiểm tra cập nhật khi máy tính không hoạt động"
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Never"
-msgstr ""
+msgstr "Không bao giờ"
 
 #: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
@@ -102,14 +103,16 @@ msgstr "Tần suất được đặt thành {translated_value}"
 
 #: vanilla_updates_utility/windows/main_window.py:128
 msgid "Disable Automatic Updates?"
-msgstr ""
+msgstr "Tắt tính năng cập nhật tự động?"
 
 #: vanilla_updates_utility/windows/main_window.py:130
 msgid ""
 "Disabling automatic updates is not recommended. If you choose to proceed, "
 "you might miss important security updates and bug fixes."
 msgstr ""
+"Không nên tắt cập nhật tự động. Nếu bạn chọn tiếp tục, bạn có thể bỏ lỡ các "
+"bản cập nhật bảo mật và bản sửa lỗi quan trọng."
 
 #: vanilla_updates_utility/windows/main_window.py:134
 msgid "Disable"
-msgstr ""
+msgstr "Tắt"
