@@ -4,13 +4,14 @@
 # Marek <uroda.mar@gmail.com>, 2024.
 # Dawid Harwig <dawidharwig@gmail.com>, 2024.
 # Piotr Wieczorek <wieczorek.piotr.praga@protonmail.com>, 2025.
+# Eryk Michalak <gnu.ewm@protonmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: updates_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-08 07:43+0000\n"
-"PO-Revision-Date: 2025-03-02 16:12+0000\n"
-"Last-Translator: Piotr Wieczorek <wieczorek.piotr.praga@protonmail.com>\n"
+"PO-Revision-Date: 2025-03-06 14:51+0000\n"
+"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-updates-utility/pl/>\n"
 "Language: pl\n"
@@ -75,7 +76,7 @@ msgstr "Sprawdzaj dostępność aktualizacji, jedynie gdy komputer jest bezczynn
 
 #: vanilla_updates_utility/windows/main_window.py:41
 msgid "Never"
-msgstr ""
+msgstr "Nigdy"
 
 #: vanilla_updates_utility/windows/main_window.py:42
 msgid "Daily"
@@ -105,14 +106,16 @@ msgstr "Częstotliwość ustawiona na {translated_value}"
 
 #: vanilla_updates_utility/windows/main_window.py:128
 msgid "Disable Automatic Updates?"
-msgstr ""
+msgstr "Wyłączyć automatyczne aktualizacje?"
 
 #: vanilla_updates_utility/windows/main_window.py:130
 msgid ""
 "Disabling automatic updates is not recommended. If you choose to proceed, "
 "you might miss important security updates and bug fixes."
 msgstr ""
+"Wyłączanie automatycznych aktualizacji nie jest zalecane. Może to spowodować "
+"przeoczenie ważnych aktualizacji bezpieczeństwa i naprawy błędów."
 
 #: vanilla_updates_utility/windows/main_window.py:134
 msgid "Disable"
-msgstr ""
+msgstr "Wyłącz"
