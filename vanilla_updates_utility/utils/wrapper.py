@@ -68,7 +68,7 @@ class VsoSettingsWrapper:
             for line in output.split("\n"):
                 line = " ".join(line.split())
                 if line and ":" in line:
-                    key, value = line.split(" : ")
+                    key, value = line.split(": ")
                     config[key] = value
         except subprocess.CalledProcessError as e:
             logger.error(e)
@@ -80,7 +80,7 @@ class VsoSettingsWrapper:
     def set_config_value(key: Text, value: str) -> None:
         try:
             subprocess.check_output(
-                VsoSettingsWrapper.get_vso_cmd(f"config set -k {key} -v {value}", True),
+                VsoSettingsWrapper.get_vso_cmd(f"config set {key} {value}", True),
                 stderr=subprocess.STDOUT,
                 shell=True,
             ).decode("utf-8")
@@ -93,7 +93,7 @@ class VsoSettingsWrapper:
         try:
             subprocess.check_output(
                 VsoSettingsWrapper.get_vso_cmd(
-                    f"config set -k {key} -v {'true' if value else 'false'}", True
+                    f"config set {key} {'true' if value else 'false'}", True
                 ),
                 stderr=subprocess.STDOUT,
                 shell=True,
